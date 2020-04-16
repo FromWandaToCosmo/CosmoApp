@@ -24,10 +24,12 @@
 }
 
 .bottom_navigation__component {
-    position: relative;
-    top: 47px;
+    position: fixed;
+    top: 55px;
     bottom: 70px;
+    left: 0;
+    right: 0;
     width: 100%;
-    height: calc(100vh - 55px - 70px);
+    height: calc(100vh - 125px);
     overflow: scroll;
 }
