@@ -1,0 +1,46 @@
+{
+  "short_name": "CosmoAPP",
+  "name": "CosmoAPP",
+  "icons": [
+    {
+      "src": "./logo/logo16.png",
+      "type": "image/svg",
+      "sizes": "16x16"
+    },
+    {
+      "src": "./logo/logo24.png",
+      "type": "image/png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "./logo/logo32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "./logo/logo64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "./logo/logo128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./logo/logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "./logo/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#F25C93",
+  "background_color": "#F25C93"
+}

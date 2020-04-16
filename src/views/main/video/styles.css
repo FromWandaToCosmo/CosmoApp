@@ -1,0 +1,24 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.video__no_display, .video___display {
+    height: 60vh;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.video__no_display {
+    background-color: #B32E55;
+}
+
+@media (orientation: landscape) {
+    .video__no_display, .video___display {
+        width: 50%;
+        height: 60vh;
+    }
+}

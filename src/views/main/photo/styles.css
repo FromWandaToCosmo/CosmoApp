@@ -1,0 +1,34 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.photo__card {
+    margin-bottom: 15px;
+}
+
+.MuiPaper-root.MuiCard-root.photo__card.MuiPaper-elevation1.MuiPaper-rounded img{
+    height: 350px;
+}
+
+@media (orientation: landscape) and (max-width: 1000px) {
+    .MuiPaper-root.MuiCard-root.photo__card.MuiPaper-elevation1.MuiPaper-rounded{
+        width: 450px;
+    }
+    .MuiPaper-root.MuiCard-root.photo__card.MuiPaper-elevation1.MuiPaper-rounded img{
+        width: 450px;
+        height: 250px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1000px) {
+    .MuiPaper-root.MuiCard-root.photo__card.MuiPaper-elevation1.MuiPaper-rounded{
+        width: 700px;
+    }
+    .MuiPaper-root.MuiCard-root.photo__card.MuiPaper-elevation1.MuiPaper-rounded img{
+        width: 700px;
+        height: 600px;
+    }
+}

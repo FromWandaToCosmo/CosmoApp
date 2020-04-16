@@ -1,0 +1,24 @@
+.app {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.app .MuiTypography-h5, .app .MuiTypography-body2 {
+    font-family: 'Crimson Text', serif;
+    text-align: justify;
+    font-size: xx-large;
+}
+
+.app .MuiTypography-body2 {
+    font-size: x-large;
+}
+
+@media (min-width:1025px) {
+    .app .MuiTypography-h5 {
+        font-size: xx-large;
+    }
+
+    .app .MuiTypography-body2 {
+        font-size: x-large;
+    }
+}
+
