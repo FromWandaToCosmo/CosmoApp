@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 85px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .photo__card {
